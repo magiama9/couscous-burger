@@ -23,7 +23,7 @@ const mongoose = require("mongoose");
 // Models
 const Workout = require("./models/workoutModel");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true
 });
 
